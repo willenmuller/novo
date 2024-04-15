@@ -1,0 +1,59 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.cabeçalho{
+    background-color: rgb(2, 6, 255);
+    color: rgb(235, 231, 14);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+ .imagem-cabeçalho{
+    width: 15%;
+ }
+ .lista-cabeçalho{
+    display:inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+ }
+
+ .celular-imagem{
+   width: 25%;
+ }
+ .abertura{
+   background-image: linear-gradient(#0206ff,#00e1ff);
+   color: black;
+   display: flex;
+   justify-content: center;
+   padding: 24px 0;
+}
+
+  .imagem-tecnicos{
+    width: 140px;
+ }
+ .icone-what{
+   width: 24px;
+ }
+
+ .agrupar-tecnicos{
+    text-align: center;
+ }
+ .técnicos{
+    text-align: center;
+    padding: 50px 0;
+ }
+ .todos-os-técnicos{
+    display: grid;
+    grid-template-columns: 20% 33% 20% 20% 20%;
+ }
+ .roda-pe{
+  background-color: black;
+  text-align: center;
+}
+.img-roda-pe{ 
+   height: 100px;
+   padding: 12px 0;
+}
